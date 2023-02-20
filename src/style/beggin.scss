@@ -1,0 +1,75 @@
+.beggin {
+    padding: 40px 0 114px;
+    &__content {
+        background: url('../img/beggin-bg.png') center/cover no-repeat;
+        padding: 246px 0 50px;
+        border-radius: 20px;
+    }
+    &__price {
+        max-width: 174px;
+        font-weight: 700;
+        font-size: 30px;
+        background: #DFA650;
+        border-radius: 40px;
+        padding: 10px 20px;
+        color: #ffffff;
+        margin-left: 50px;
+    }
+    &__title {
+        font-weight: 800;
+        font-size: 80px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-left: 50px;
+        padding: 20px 0 30px;
+    }
+    &__button {
+        font-weight: 700;
+        font-size: 20px;
+        padding: 20px 30px;
+        color: #333333;
+        background: #F6F1E4;
+        border-radius: 50px;
+        border: none;
+        margin-left: 50px;
+        transition: .3s all;
+        cursor: pointer;
+    }
+    &__button:hover {
+        background: #DFA650;
+        color: #ffffff;
+    }
+}
+
+.subcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 85px;
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        padding-left: 12px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #333333;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

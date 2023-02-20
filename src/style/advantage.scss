@@ -1,0 +1,31 @@
+.advantage {
+    padding-bottom: 100px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__items {
+        padding-left: 60px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        color: #333333;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+    }
+    li {
+        color: #547147;
+        margin-left: 20px;
+        padding-bottom: 15px;
+    }
+    li:nth-child(5) {
+        padding-bottom: 0;
+    }
+    li span {
+        font-weight: 400;
+        font-size: 16px;
+        color: #333333;
+    }
+}

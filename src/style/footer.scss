@@ -1,0 +1,64 @@
+.footer {
+    padding: 60px 0 60px;
+    &__content {
+        display: flex;
+    }
+    &__logos {
+        display: flex;
+        align-items: center;
+        padding-bottom: 28px;
+    }
+    &__logo__title {
+        padding-left: 19px;
+    }
+    &__logo__text {
+        font-weight: 400;
+        font-size: 14px;
+        color: #888888;
+    }
+    &__menu {
+        padding: 0 93px 0 88px;
+    }
+    &__menu__text {
+        font-weight: 600;
+        font-size: 16px;
+        color: #333333;
+        padding-top: 20px;
+    }
+    &__menu__text:first-child {
+        padding-top: 0;
+        font-size: 24px;
+    }
+    &__social {
+        padding-right: 88px;
+    }
+    &__tel {
+        font-weight: 600;
+        font-size: 30px;
+        color: #333333;
+        padding-bottom: 20px;
+    }
+    &__socials {
+        display: flex;
+        column-gap: 20px;
+    }
+    &__ques {
+        color: #333333;
+    }
+    &__ques__title {
+        font-weight: 600;
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    &__ques__text {
+        font-weight: 400;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    button {
+        padding: 16px 32px;
+    }
+    a {
+        color: #333333;
+    }
+}
